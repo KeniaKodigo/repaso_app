@@ -10,6 +10,7 @@ function App() {
   return (
     <div className="App">
       <h1>Hola! Chicos</h1>
+      <h2>Bienvenidos</h2>
       <Lista />
       {
         isAuthenticades ? ( console.log("Hola")) : (<Login />)
